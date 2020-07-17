@@ -13,7 +13,7 @@ const seriesDataExtractor = (data) => {
   let newData = data.USA.data
   newData.map((value,i) =>{
     console.log(i, value.total_cases)
-    seriesDataObject.initialDataSet.push([i][value.total_cases])
+    seriesDataObject.initialDataSet.push([i],[value.total_cases])
   })
 
   return seriesDataObject
