@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jiansorge/api-service-starter-challenge"
+    "url": "git+https://github.com/Jiansorge/api-service-starter-challenge.git"
   },
   "keywords": ["code challenge", "express", "time-series", "covid"],
   "author": "Jian Sorge",
