@@ -10,10 +10,11 @@ const seriesDataExtractor = (data) => {
     initialDataSet: []
   }
 
+  let epoch
   let newData = data.USA.data
   newData.map((value,i) =>{
-    console.log(i, value.total_cases)
-    seriesDataObject.initialDataSet.push([i],[value.total_cases])
+    epoch = new Date(value.date)
+    seriesDataObject.initialDataSet.push([epoch.getTime(),value.total_cases])
   })
 
   return seriesDataObject
