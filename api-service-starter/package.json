@@ -1,15 +1,15 @@
 {
   "name": "api-service-starter",
-  "version": "1.0.0",
+  "version": "0.2",
   "description": "Microservice Starter Code Challenge",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jiansorge/api-service-starter-challenge.git"
+    "url": "git +https://github.com/Jiansorge/api-service-starter-challenge.git"
   },
   "keywords": ["code challenge", "express", "time-series", "covid"],
   "author": "Jian Sorge",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "jest": "^26.1.0",
+    "jest-extended": "^0.11.5",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
     "supertest": "^4.0.2"
@@ -29,5 +30,4 @@
       "/node_modules/"
     ],
     "setupFilesAfterEnv": ["jest-extended"]
-  }
-}
+}}
