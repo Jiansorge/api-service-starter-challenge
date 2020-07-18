@@ -12,7 +12,6 @@ By [Jian Sorge](https://www.jiansorge.com)
 
 The technologies I used to build this app are:
 
-* ReactJS
 * Node.js
 * Express
 
@@ -57,5 +56,3 @@ Provides the time series data. `format` should be always set to `'date'`.
 ## Tests
 
 Tested with Postman. Attempted to integrate Jest
-
-## For algorithms and data structures, time and space complexity
